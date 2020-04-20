@@ -1,0 +1,196 @@
+object Form1: TForm1
+  Left = 253
+  Top = 172
+  Width = 614
+  Height = 734
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Label1: TLabel
+    Left = 435
+    Top = 143
+    Width = 35
+    Height = 87
+    Alignment = taRightJustify
+    Caption = '0'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -65
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 168
+    Top = 114
+    Width = 304
+    Height = 29
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 75
+    Top = 222
+    Width = 70
+    Height = 70
+    Caption = '1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 154
+    Top = 222
+    Width = 70
+    Height = 70
+    Caption = '2'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 233
+    Top = 222
+    Width = 70
+    Height = 70
+    Caption = '3'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 75
+    Top = 301
+    Width = 70
+    Height = 70
+    Caption = '4'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 154
+    Top = 301
+    Width = 70
+    Height = 70
+    Caption = '5'
+    TabOrder = 4
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 233
+    Top = 301
+    Width = 70
+    Height = 70
+    Caption = '6'
+    TabOrder = 5
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 75
+    Top = 380
+    Width = 70
+    Height = 70
+    Caption = '7'
+    TabOrder = 6
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 154
+    Top = 380
+    Width = 70
+    Height = 70
+    Caption = '8'
+    TabOrder = 7
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 233
+    Top = 380
+    Width = 70
+    Height = 70
+    Caption = '9'
+    TabOrder = 8
+    OnClick = Button9Click
+  end
+  object Button0: TButton
+    Left = 154
+    Top = 458
+    Width = 70
+    Height = 71
+    Caption = '0'
+    TabOrder = 9
+    OnClick = Button0Click
+  end
+  object Przecinek: TButton
+    Left = 233
+    Top = 458
+    Width = 70
+    Height = 71
+    Caption = ':)'
+    TabOrder = 10
+    OnClick = PrzecinekClick
+  end
+  object Dodawanie: TButton
+    Left = 311
+    Top = 222
+    Width = 71
+    Height = 70
+    Caption = '+'
+    TabOrder = 11
+    OnClick = DodawanieClick
+  end
+  object Odejmowanie: TButton
+    Left = 311
+    Top = 301
+    Width = 71
+    Height = 70
+    Caption = '-'
+    TabOrder = 12
+    OnClick = OdejmowanieClick
+  end
+  object Dzielenie: TButton
+    Left = 311
+    Top = 380
+    Width = 71
+    Height = 70
+    Caption = '/'
+    TabOrder = 13
+    OnClick = DzielenieClick
+  end
+  object Mnozenie: TButton
+    Left = 311
+    Top = 458
+    Width = 71
+    Height = 71
+    Caption = '*'
+    TabOrder = 14
+    OnClick = MnozenieClick
+  end
+  object Enter: TButton
+    Left = 390
+    Top = 222
+    Width = 80
+    Height = 307
+    Caption = 'Enter'
+    TabOrder = 15
+    OnClick = EnterClick
+  end
+  object Button10: TButton
+    Left = 75
+    Top = 460
+    Width = 70
+    Height = 69
+    Caption = 'Clear'
+    TabOrder = 16
+    OnClick = Button10Click
+  end
+end
